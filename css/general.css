@@ -1,0 +1,10 @@
+* {
+  font-family: var(--font-family-primary);
+  color: var(--font-color-main);
+  text-decoration: none;
+}
+
+.content-box {
+  max-width: var(--content-box);
+  margin: 0px auto;
+}

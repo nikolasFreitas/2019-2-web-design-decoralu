@@ -1,0 +1,11 @@
+@import 'normalize.css';
+@import 'color-scheme.css';
+@import 'font-family.css';
+@import 'variables.css';
+@import 'general.css';
+/* Root imports */
+
+@import 'header.css';
+@import 'navbar.css';
+@import 'card-section.css';
+@import 'footer.css';

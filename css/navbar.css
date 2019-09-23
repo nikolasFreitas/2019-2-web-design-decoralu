@@ -1,0 +1,28 @@
+.navbar-container {
+  width: 100%;
+  height: 60px;
+  background: rgb(var(--color-primary));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-content {
+  display: flex;
+  margin: 0px auto;
+  list-style: none;
+  padding: 0px;
+}
+
+.navbar-item {
+  color: rgb(var(--color-third));
+  padding: 10px 25px;
+  border-bottom: 2px solid transparent;
+  transition: all ease 0.5s;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.navbar-item:hover {
+  border-bottom-color: rgb(var(--color-fifth));
+} 
